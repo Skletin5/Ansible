@@ -1,0 +1,17 @@
+---
+- name: Probando Slurp
+  hosts: all
+
+  tasks:
+  - name: Ejecutando slurp sobre el fichero /home/usuario/Prueba
+    ansible.builtin.slurp
+      src: /home/usuario/Prueba
+    register: resultadoSlurp
+
+  - name: Leemos el contenido del register de slurp
+    ansible.builtin.debug:
+      var: resultadoSlurp
+
+  - name: Descodificamos el contenido de la variable
+    ansible.builtin.debug:
+      msg: "{{ resultadoSlurp.content | b64decode }}"
