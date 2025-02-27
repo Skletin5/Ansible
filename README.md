@@ -15,18 +15,18 @@ Esto transportara el contenido de dicho fichero a nuestra maquina de ejecución 
 
 Slurp nos permite codificar a base64 el contenido del fichero del que extraigamos la información, podriamos decir que es una forma segura de obtener información desde otro equipo.  
 Su sintaxis funciona de la siguiente manera:  
-![ComandoSlurp1.PNG](/img/ComandoSlurp1.png)  
+![ComandoSlurp1.PNG](/img/ComandoSlurp1.PNG)  
 Como Puedes ver, debemos agragear la salida del modulo a una variable usando `register: NOMBRE_VARIABLE` para luego llamar al contenido de la misma con el modulo `debug`
 
 Y nos devolvera lo siguiente:  
-![ResultadoSlurp1.PNG](/img/ResultadoSlurp1.png)
+![ResultadoSlurp1.PNG](/img/ResultadoSlurp1.PNG)
 
 Tambien podemos descodificar el contenido en un mensaje para ver desde nuestro terminal que es lo que hemos descargado. Para ello volveremos a usar el modulo `debug`:  
-![ComandoSlurp2.PNG](/img/ComandoSlurp2.png)  
+![ComandoSlurp2.PNG](/img/ComandoSlurp2.PNG)  
 Pedimos que nos imprima el contenido de la variable y que la decodifique de base64.  
 
 Nos devolvera lo siguiente:  
-![ResultadoSlurp2.PNG](/img/ResultadoSlurp2.png)  
+![ResultadoSlurp2.PNG](/img/ResultadoSlurp2.PNG)  
 
 Podeis descargar ambos playbooks en el contenido de este repositorio.
 ## Referencias
