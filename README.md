@@ -28,7 +28,7 @@ Pedimos que nos imprima el contenido de la variable y que la decodifique de base
 Nos devolvera lo siguiente:  
 ![ResultadoSlurp2.PNG](/img/ResultadoSlurp2.PNG)  
 
-Podeis descargar ambos playbooks en el contenido de este repositorio.
+Podeis descargar el playbook en el contenido de este repositorio.
 ## Referencias
 - [Guia en youtube de Percy Grunwald from TopTechSkills](https://www.youtube.com/watch?v=fXmPZNacitE)  
 - [Guia oficial de Ansible](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/slurp_module.html#ansible-collections-ansible-builtin-slurp-module)
